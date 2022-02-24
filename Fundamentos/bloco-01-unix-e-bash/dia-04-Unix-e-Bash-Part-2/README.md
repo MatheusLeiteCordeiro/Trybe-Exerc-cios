@@ -1,6 +1,3 @@
-# Bloco 01 Unix & Bash
+# Unix & Bash Parte 2
 
-Nesse bloco é iniciado o conteúdo sobre o sistema operacional Unix e o interpretador de comandos Bash
-
-Nele, é abordado diversos processos e comandos que utilizam dessas ferramentas 
-
+Continuação do conteúdo sobre Unix e Bash, abordando comandos e processos mais comlexos
