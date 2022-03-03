@@ -1,0 +1,54 @@
+#aga1 {
+  color: rgb(76, 26, 122);
+  font-size: 50px;
+  font-family: "Times New Roman";
+}
+
+p {
+  font-size: 20px;
+  color: chartreuse;
+  font-weight: bold;
+}
+
+body {
+    background-color: rgb(224, 238, 222);
+    padding: 20px;
+}
+
+.caixas {
+  background-color: rgb(167, 195, 221);
+  line-height: 30px;
+  text-align: justify;
+}
+
+.imagens{
+    background-color: black;
+    width: 620px;
+    height: 200px;
+}
+
+.picture{
+    border-radius: 100%;
+}
+
+h2 {
+  color: rgb(77, 152, 218);
+}
+
+
+.Trybe {
+  color: rgb(36, 136, 33);
+}
+
+.imagens2{
+    width: 700px;
+    height: 200px;
+}
+
+.paragrafos {
+  font-size: 50px;
+   width: 640px; /*limitando largura */
+  height: 400px;  /*limitando altura */
+  overflow-y: auto; 
+  overflow-x: scroll;
+}
