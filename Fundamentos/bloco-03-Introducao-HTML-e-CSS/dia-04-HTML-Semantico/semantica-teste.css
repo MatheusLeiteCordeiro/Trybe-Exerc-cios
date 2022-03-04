@@ -19,6 +19,9 @@
     width: 65%;
     height: 75%;
     display: inline-block;
+
+
+
 }
 
 .section{
@@ -33,6 +36,12 @@
     margin-top: 10%; 
     bottom: 0;
     display: inline-block;
+
+    width: 100px;
+    height: 250px;
+    float: right;
+    margin-top: 5px; 
+
 }
 
 .footer{
