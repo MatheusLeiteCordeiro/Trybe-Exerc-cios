@@ -90,6 +90,7 @@
 // console.log(lessThan(7, 2))
 
 // for/in e for/of 
+
 // 1, 2, 3, 4, 5
 
 // let info = {
@@ -143,18 +144,54 @@
 
 
 // Funções
+
 // 1.
 
-function eOuNaoE(word) {
-    let wordContrarie = '';
-    for(i=word.length; i>=0; i--) {
-        wordContrarie += word[i];
-    }
-    if(word === wordContrarie) {
-        return true;
-    }else {
-        return false;
-    }
-}
+// function eOuNaoE(word) {
+//     let wordContrarie = '';
+//     for(i=word.length -1; i>=0; i--) {
+//         wordContrarie += word[i];
+//     }
+//     if(word === wordContrarie) {
+//         return true;
+//     }else {
+//         return false;
+//     }
+// }
 
-console.log(eOuNaoE('ovo'));
+// console.log(eOuNaoE('desaniimado'))
+
+// 2.
+
+// function indiceMenor(array) {
+//     let menor = array[0];
+//     let indice = 0;
+//     for( i in array) {
+//         if(array[i] > menor) {
+//             menor = array[i]
+//             indice = i;
+//         }        
+//     }
+//     return indice;
+// }
+
+// console.log(indiceMenor([10, -10, 50, -100, -400, -2, 3]));
+
+// 3.
+
+// function indiceMenor(array) {
+//     let menor = array[0];
+//     let indice = 0;
+//     for( i in array) {
+//         if(array[i] <= menor) {
+//             menor = array[i]
+//             indice = i;
+//         }        
+//     }
+//     return indice;
+// }
+
+// console.log(indiceMenor([-10, -100, -400, -2, 3]));
+
+// 4.
+
