@@ -16,5 +16,14 @@ let newSection = document.createElement('section');
 newSection.className = 'center-content';
 newMain.appendChild(newSection);
 
+// 4.
+let newP = document.createElement('p');
+newSection.appendChild(newP).innerText = 'algum texto'
+
+// 5.
+let newSection1 = document.createElement('section1');
+newSection1.className = 'left-content';
+newMain.appendChild(newSection1);
+
 console.log(container);
 
