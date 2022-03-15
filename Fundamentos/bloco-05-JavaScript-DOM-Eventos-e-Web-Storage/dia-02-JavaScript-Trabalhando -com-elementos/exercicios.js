@@ -25,5 +25,9 @@ let newSection1 = document.createElement('section1');
 newSection1.className = 'left-content';
 newMain.appendChild(newSection1);
 
-console.log(container);
+// 6.
+let newSection2 = document.createElement('section2');
+newSection2.className = 'rigth-content';
+newMain.appendChild(newSection2);
 
+console.log(container);
