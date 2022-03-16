@@ -39,9 +39,11 @@ newSection1.appendChild(newImg);
 // 8.
 let lista = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
 let newlU = document.createElement('ul');
+newlU.className = 'UL'
 for (let i=0; i<lista.length; i++) {
    let newLi = document.createElement('li');
    newLi.innerText = lista[i];
+   newLi.className = 'lis';
    newlU.appendChild(newLi);
 };
 newSection2.appendChild(newlU);
@@ -65,11 +67,19 @@ newH3_3.className = 'description';
 // 12.
 newMain.removeChild(newSection1);
 
-// 13.
-newSection2.style.marginLeft = '50%';
-newSection2.innerText = 'centro'
+// // 13.
+newSection2.style.marginLeft = 'auto';
+
+// 14.
+newMain.style.backgroundColor = 'green';
+
+// 15.
+let l = document.querySelectorAll('.lis');
+for (let i=0; i<l.length; i++) {
+    let element = l[i];
+    if (element.innerText.includes('nove') || (element.innerText.includes('dez'))) {
+        newlU.removeChild(element);
+    }
+}
 
 console.log(container);
-
-
-
