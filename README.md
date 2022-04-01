@@ -32,14 +32,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 5-3:  JavaScript - Eventos
 - [x] 5-4: JavaScript - Web Storage
 - [X] 5-5: Fundamentos - JavaScript - Projetos
-##### Bloco 06:
+##### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
 - [X] 6-1: HTML & CSS - Forms
 - [X] 6-2: Bibliotecas JavaScript e Frameworks CSS
-- [] 6-3: CSS Flexbox - Parte 1
-- [] 6-4: CSS Flexbox - Parte 2
-- [] 6-5: CSS Responsivo - Mobile First
+- [X] 6-3: CSS Flexbox - Parte 1
+- [X] 6-4: CSS Flexbox - Parte 2
+- [X] 6-5: CSS Responsivo - Mobile First
 
-
+##### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
+- [X] 7-1: JavaScript ES6 - let, const, arrow functions e template literals
 
 
 
