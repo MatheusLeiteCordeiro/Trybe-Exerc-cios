@@ -32,7 +32,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 5-3:  JavaScript - Eventos
 - [x] 5-4: JavaScript - Web Storage
 - [X] 5-5: Fundamentos - JavaScript - Projetos
-  ##### Bloco 06:
+##### Bloco 06:
 - [X] 6-1: HTML & CSS - Forms
 - [X] 6-2: Bibliotecas JavaScript e Frameworks CSS
 - [] 6-3: CSS Flexbox - Parte 1
