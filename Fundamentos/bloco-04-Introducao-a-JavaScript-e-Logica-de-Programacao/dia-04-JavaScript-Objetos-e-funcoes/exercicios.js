@@ -14,7 +14,6 @@
 
 // site['margin'] = 50;
 
-// console.log(site)
 // console.log(site.borders.bordertop)
 // console.log(site['borders']['borderbottom'])
 
@@ -29,7 +28,7 @@
 //  1, 2, 3, 4, 5
 // ];
 
-// console.log(array)
+// // console.log(array)
 // console.log(array[0]['subobjeto'].subpropriedade)
 
 // let cars = ['Saab', 'Volvo', 'BMW'];
@@ -70,7 +69,7 @@
 //   };
 
 //   for(let key in car) {
-//       console.log(key + ':  ' + car[key])
+//       console.log(key + ': ' + car[key])
 //   }
 
 // function test(num1, num2) {
@@ -194,4 +193,5 @@
 // console.log(indiceMenor([-10, -100, -400, -2, 3]));
 
 // 4.
+
 
