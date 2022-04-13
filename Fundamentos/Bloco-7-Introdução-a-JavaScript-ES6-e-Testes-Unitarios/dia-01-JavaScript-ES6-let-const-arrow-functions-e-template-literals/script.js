@@ -1,11 +1,16 @@
-const chef = 'chefao'
+const person = {
+    name: 'Roberto',
+  };
+  
+  const lastName = {
+    lastName: 'Silva',
+  };
+  
+  const clone = Object.assign(person, lastName)
 
-const objeto = {
-    nome: 'Matheus',
-    idade: 18
-}
+  clone.name = 'holyshit'
 
-const arrowFunction =  nome => nome === `${chef}` ? `Bem vindo, chef` : `Bem vindo ${objeto.nome}`;
+  console.log(clone);
+  console.log(person);
 
-console.log(arrowFunction('matheus'));;
-
+  
