@@ -1,0 +1,61 @@
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+
+.praia{
+    position: absolute; /* manipulando posicionamento*/
+    z-index: 1; /*ordem de posicionamento*/
+    top: 60px; /*distância do topo até o elemento*/
+
+}
+
+.pedreiro{
+    position: absolute;
+    z-index: 2;
+    left: 70px; /*distância da margem esquerda até o elemento*/
+    top: 80px ;
+}
+
+.oculos{
+    position: absolute;
+    z-index: 3;
+    top: 157px;
+    right: 1277px; /*distância da margem direita até o elemento*/
+}
+h1{
+    position: fixed; /*fixando h1 na sua posição*/
+    z-index: 4;
+    top: 2px;
+}
+
+.div{
+    position: absolute;
+    z-index: 5;
+    top: 400px;
+}
+
+.coc{
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.lista{
+    position: absolute;
+    z-index: 7;
+    top: 900px ;
+}
+
+li:hover{
+    background-color: chartreuse; /*colocando fundo verde nos elementos lista quando o mause toca*/
+}
+
+li:active{
+    color: aliceblue;
+}
+
+.lr:hover{
+    background-color: red; /*colocando fundo vermelho na classe lr quando o mause toca*/
+}

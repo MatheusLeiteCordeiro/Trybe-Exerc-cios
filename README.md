@@ -53,9 +53,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 7-3: Primeiros passos em Jest
 - [X] 7-4: Projeto - JavaScript Testes Unitários
 ##### Bloco 08: Higher Order Functions do JavaScript ES6
-- [X] 7-1: JavaScript ES6 - Introdução a Higher Order Functions
-- [X] 7-2: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [X] 7-3: JavaScript ES6 - Higher Order Functions - map e filter
-- [X] 7-4: JavaScript ES6 - Higher Order Functions - reduce
-- [X] 7-5: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [X] 7-6: Projeto - Zoo functions
+- [X] 8-1: JavaScript ES6 - Introdução a Higher Order Functions
+- [X] 8-2: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [X] 8-3: JavaScript ES6 - Higher Order Functions - map e filter
+- [X] 8-4: JavaScript ES6 - Higher Order Functions - reduce
+- [X] 8-5: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [X] 8-6: Projeto - Zoo functions

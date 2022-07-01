@@ -1,0 +1,15 @@
+.paras {
+    border: 2px solid black;
+    background-color: aquamarine;
+    margin: 0;
+}
+
+.container-1 {
+    border: 1px black solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    width: 200px;
+    flex-flow: row wrap;
+}
+
