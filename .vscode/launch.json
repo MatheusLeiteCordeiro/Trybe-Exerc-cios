@@ -1,19 +1,21 @@
 {
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
     "configurations": [
-        
         {
-            "name": "Attach to Edge",
+            "name": "Attach to Chrome",
             "port": 9222,
             "request": "attach",
-            "type": "pwa-msedge",
+            "type": "chrome",
             "webRoot": "${workspaceFolder}"
         },
-
-    {
-        "type": "chrome",
-        "request": "launch",
-        "name": "Launch Chrome",
-        "url": "http://localhost:8080",
-        "webRoot": "${workspaceFolder}"
-    }
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "/home/matheus/Dropbox/Trybe/Trybe-Exercícios/Fundamentos/bloco-05-JavaScript:DOM-Eventos-e-Web-Storage/dia-01-JavaScript-Dom-e-Seletores/index.html"
+        }
     ]
+}
