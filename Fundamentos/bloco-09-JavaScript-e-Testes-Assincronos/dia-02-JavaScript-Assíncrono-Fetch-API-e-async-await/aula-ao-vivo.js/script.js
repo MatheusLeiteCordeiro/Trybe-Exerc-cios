@@ -23,20 +23,22 @@ const section = document.querySelector("section");
 
             img.src = json.sprites.front_default;
             cardTitle.innerHTML = json.name
+            console.log(json.name);
            } catch (error) {
-                console.log(error)
+                console.log('Erro')
            }
         }
 
-        async function requestFetchPokemon() {
-            await fetchPokemon('charmander');
-            await fetchPokemon('beedrill');
-            await fetchPokemon('rattata');
-            await fetchPokemon('pidgeotto');
+         function requestFetchPokemon() {
+             fetchPokemon('charmander');
+             fetchPokemon('beedrill');
+             fetchPokemon('rattata');
+             fetchPokemon('pidgeotto');
 }
   
-        window.onload = () => {
-            requestFetchPokemon();
-        };
-   
 
+window.onload = async () => {
+    await requestFetchPokemon();
+};
+
+module.exports = { fetchPokemon2 };
