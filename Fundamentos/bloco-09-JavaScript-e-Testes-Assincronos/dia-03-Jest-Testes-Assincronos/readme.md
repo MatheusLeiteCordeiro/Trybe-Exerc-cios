@@ -1,0 +1,1 @@
+## Exercicios e aprendizados do dia realizado por meio de forks, as quais estão localizadas em Trybe/Forks/9.3
