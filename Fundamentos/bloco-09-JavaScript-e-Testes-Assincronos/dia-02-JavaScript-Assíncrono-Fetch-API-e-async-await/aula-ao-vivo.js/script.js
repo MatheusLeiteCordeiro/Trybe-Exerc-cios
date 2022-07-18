@@ -29,12 +29,12 @@ const section = document.querySelector("section");
            }
         }
 
-         function requestFetchPokemon() {
+function requestFetchPokemon() {
              fetchPokemon('charmander');
              fetchPokemon('beedrill');
              fetchPokemon('rattata');
              fetchPokemon('pidgeotto');
-}
+        }
   
 
 window.onload = async () => {

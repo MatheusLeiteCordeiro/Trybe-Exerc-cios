@@ -31,3 +31,5 @@ const fetchJoke = async () => {
 }
 
 fetchJoke();
+
+module.exports = fetchJoke;
