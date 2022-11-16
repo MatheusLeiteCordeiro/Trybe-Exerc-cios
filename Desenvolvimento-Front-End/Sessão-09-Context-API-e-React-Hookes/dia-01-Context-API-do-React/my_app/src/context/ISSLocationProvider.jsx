@@ -1,44 +1,48 @@
-import React, { Component } from "react";
 import ISSLocationContext from "./ISSLocationContext";
 import { getCurrentISSLocation } from "../services/issAPI";
+import { useState } from 'react';
 
-export default class ISSLocationProvider extends Component {
+export default function ISSLocationProvider({ children }) {
 
-  state = {
+  const state = {
     latitude: 0,
     longitude: 0,
     isFetching: false,
     error: '',
   };
 
-  fetchISSLocation = async () => {
-    this.setState({ isFetching: true });
+  const [ISSLocationInfos, setIssLocationInfos] = useState(state)
+
+  const fetchISSLocation = async () => {
+    setIssLocationInfos((prevState) => ({
+      ...prevState,
+      isFetching: true,
+    }));
   
       try {
         const response = await getCurrentISSLocation();
-        this.setState({
+        setIssLocationInfos((prevState) => ({
+          ...prevState,
           latitude: response.iss_position.latitude,
           longitude: response.iss_position.longitude,
           isFetching: false,
-        })
+        }));
       } catch (error) {
-        this.setState({ 
+        setIssLocationInfos((prevState) => ({ 
+          ...prevState,
           isFetching: false,
           error: error,
-         })
+         }));
       }
     }
 
-  render() {
-    const { children } = this.props;
     const contextType = {
-      ...this.state,
-      fetchISSLocation: this.fetchISSLocation,
+      ...ISSLocationInfos,
+      fetchISSLocation: fetchISSLocation,
     }  
     return ( 
     <ISSLocationContext.Provider value={ contextType }>
       { children }
     </ISSLocationContext.Provider>
     );
-  }
 }

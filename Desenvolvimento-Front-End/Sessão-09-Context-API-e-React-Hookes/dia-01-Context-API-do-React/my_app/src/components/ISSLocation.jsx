@@ -1,7 +1,7 @@
 import Map from 'pigeon-maps';
 import Marker from 'pigeon-marker';
 import ISSLocationContext from '../context/ISSLocationContext';
-import React, { Component } from "react";
+import { Component } from 'react';
 
 class ISSLocation extends Component {
 
